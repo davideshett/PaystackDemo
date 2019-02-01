@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+     <!--   use your details here-->
         <meta-data
             android:name="co.paystack.android.PublicKey"
             android:value="pk_test_f03f83ba8c87a049875b9e0e9157c4b2dac18072" />

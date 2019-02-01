@@ -14,6 +14,8 @@ public class PaymentActivity extends AppCompatActivity {
         webView = findViewById(R.id.web_view);
         webView.setWebViewClient(new WebViewClient());
         webView.getSettings().setJavaScriptEnabled(true);
+
+        //use your payment page link here
         webView.loadUrl("https://paystack.com/pay/1c5dfs41wt");
 
 
